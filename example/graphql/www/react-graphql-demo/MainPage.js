@@ -3,8 +3,8 @@
  ------------------------------------------------------------------------------------
  | Template MainPage module for QEWD React.js applications                          |
  |                                                                                  |
- | Copyright (c) 2016-17 M/Gateway Developments Ltd,                                |
- | Reigate, Surrey UK.                                                              |
+ | Copyright (c) 2016-18 M/Gateway Developments Ltd,                                |
+ | Redhill, Surrey UK.                                                              |
  | All rights reserved.                                                             |
  |                                                                                  |
  | http://www.mgateway.com                                                          |
@@ -24,13 +24,14 @@
  |  limitations under the License.                                                  |
  ------------------------------------------------------------------------------------
 
-  17 January 2017
+  4 January 2018
 
 */
 
 "use strict"
 
 var React = require('react');
+var createReactClass = require('create-react-class');
 var ReactToastr = require('react-toastr');
 var {ToastContainer} = ReactToastr;
 var ToastMessageFactory = React.createFactory(ReactToastr.ToastMessage.animation);
@@ -46,7 +47,7 @@ var Content = require('./Content');
 var controller;
 var title = 'GraphQL Demo App';
 
-var MainPage = React.createClass({
+var MainPage = createReactClass({
 
   getInitialState: function() {
     return {

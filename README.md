@@ -15,9 +15,9 @@ Google Group for discussions, support, advice etc: [http://groups.google.co.uk/g
 
 ## License
 
- Copyright (c) 2016-17 M/Gateway Developments Ltd,                           
- Reigate, Surrey UK.                                                      
- All rights reserved.                                                     
+ Copyright (c) 2016-18 M/Gateway Developments Ltd,                           
+ Redhill, Surrey UK.
+ All rights reserved.          
                                                                            
   http://www.mgateway.com                                                  
   Email: rtweed@mgateway.com                                               

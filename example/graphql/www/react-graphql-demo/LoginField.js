@@ -3,7 +3,7 @@
  ------------------------------------------------------------------------------------
  | Template Component for QEWD React.js applications                                |
  |                                                                                  |
- | Copyright (c) 2016-17 M/Gateway Developments Ltd,                                |
+ | Copyright (c) 2016-18 M/Gateway Developments Ltd,                                |
  | Reigate, Surrey UK.                                                              |
  | All rights reserved.                                                             |
  |                                                                                  |
@@ -24,13 +24,14 @@
  |  limitations under the License.                                                  |
  ------------------------------------------------------------------------------------
 
-  18 January 2017
+  4 January 2018
 
 */
 
 "use strict"
 
 var React = require('react');
+var createReactClass = require('create-react-class');
 var ReactBootstrap = require('react-bootstrap');
 
 var {
@@ -39,7 +40,7 @@ var {
   ControlLabel
 } = ReactBootstrap;
 
-var LoginField = React.createClass({
+var LoginField = createReactClass({
 
   getInitialState: function() {
     return {value:''}

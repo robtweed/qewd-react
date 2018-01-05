@@ -3,8 +3,8 @@
  ------------------------------------------------------------------------------------
  | Template Banner module for QEWD React.js applications                            |
  |                                                                                  |
- | Copyright (c) 2016-17 M/Gateway Developments Ltd,                                |
- | Reigate, Surrey UK.                                                              |
+ | Copyright (c) 2016-18 M/Gateway Developments Ltd,                                |
+ | Redhill, Surrey UK.                                                              |
  | All rights reserved.                                                             |
  |                                                                                  |
  | http://www.mgateway.com                                                          |
@@ -24,13 +24,14 @@
  |  limitations under the License.                                                  |
  ------------------------------------------------------------------------------------
 
-  17 January 2017
+  4 January 2018
 
 */
 
 "use strict"
 
 var React = require('react');
+var createReactClass = require('create-react-class');
 var ReactBootstrap = require('react-bootstrap');
 var {
   Nav,
@@ -38,7 +39,7 @@ var {
   NavItem
 } = ReactBootstrap;
 
-var Banner = React.createClass({
+var Banner = createReactClass({
 
   render: function() {
 

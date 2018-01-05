@@ -3,7 +3,7 @@
  ----------------------------------------------------------------------------
  | qewd-react: React Client Modules for QEWD                                |
  |                                                                          |
- | Copyright (c) 2016-17 M/Gateway Developments Ltd,                        |
+ | Copyright (c) 2016-18 M/Gateway Developments Ltd,                        |
  | Reigate, Surrey UK.                                                      |
  | All rights reserved.                                                     |
  |                                                                          |
