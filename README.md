@@ -12,6 +12,22 @@ Google Group for discussions, support, advice etc: [http://groups.google.co.uk/g
 
        npm install qewd-react
 
+## Setting up a development environment
+
+       npm install babel-core babelify babel-preset-react
+       npm install -g browserify
+
+   Navigate to / create QEWD application folder, eg:
+
+       cd ~/qewd/www
+       mkdir myReactApp
+       cd myReactApp
+
+   Then install Babel Preset for ES2015:
+
+       npm install babel-preset-es2015
+
+
 
 ## License
 

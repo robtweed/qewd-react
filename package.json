@@ -1,6 +1,6 @@
 {
   "name": "qewd-react",
-  "version": "3.1.1",
+  "version": "3.2.0",
   "description": "React Client Modules for QEWD",
   "main": "index.js",
   "scripts": {
